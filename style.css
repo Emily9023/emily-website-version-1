@@ -1,0 +1,316 @@
+/* #e67e22 */
+
+/* #C2D7C8 */
+
+/* ------------------------------------------------------- */
+/* BASIC SETUP */
+/* ------------------------------------------------------- */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+* p {
+    
+    text-align: justify;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    
+    
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ------------------------------------------------------- */
+/* REUSABLE COMPONENTS*/
+/* ------------------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+    
+}
+/* ------- HEADINGS ------- */
+
+
+h1, h2, h3 {
+    
+    
+    font-weight: 300;
+    text-transform: uppercase;
+    
+    
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;   
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+    
+}
+
+h4 {
+    
+    font-size: 150%;
+    margin-bottom: 15px;
+    color: #C2D7C8;
+    
+    
+}
+
+h2:after {
+    
+    display: block;
+    height: 2px;
+    background-color:#C2D7C8 ;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+
+
+/* ------- PARAGRAPHS ------- */
+
+.long-copy {
+    
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    max-width: 1500px;
+    
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 140%;
+    
+        
+}
+
+.shaded {
+    background-color: rgb(248, 248, 248);
+    height: 100%;
+    width: 100%;
+
+}
+
+.split {
+    background-color: rgb(248, 248, 248);
+    height: 100%;
+    width: 100%;
+
+}
+
+/* ------- ICONS ------- */
+
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #C2D7C8;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/* ------- BUTTONS ------- */
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 0px;
+    transition: background-color .2s, border .2s, color .2s;
+        
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #C2D7C8;
+    border: 1px solid #C2D7C8;
+    color: #fff;
+    margin-right: 50px;
+    
+    
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #C2D7C8;
+    color: #C2D7C8;
+}
+
+
+.btn:hover,
+.btn:active {
+    background-color: #C2D7C8;
+    
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #dae7de;
+    background-color: #dae7de;
+    
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1px solid #C2D7C8;
+    color: #fff;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------- */
+/* HEADER */
+/* ------------------------------------------------------- */
+
+
+.title {
+    color: white;
+    font-size: 150%;
+    font-weight: 300;
+    padding-right: 80 px;
+    float: left;
+    margin-top: 20px;
+    
+}
+
+.menu {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgba(194, 215, 200, .9) ;
+}
+
+
+header {
+    background-image: url(img/filler.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+      
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+    
+}
+
+.main-nav {
+    float: left;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0; 
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #fff;
+    
+}
+
+
+/* ------------------------------------------------------- */
+/* INTRO */
+/* ------------------------------------------------------- */
+
+
+.name {
+    color: black;
+    font-size: 300%;
+    font-weight: 300;
+    padding-right: 80 px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3vh;
+    height: 40px;
+    margin-bottom: 80px;
+
+}
+
+.intro {
+    text-align: justify;
+    font-size: 120%;
+    letter-spacing: 1px;
+    color: #97a79b;
+}
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.icons {
+    color: teal;
+    size: 30px;
+}
