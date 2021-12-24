@@ -95,12 +95,12 @@ html {
         display: block;
     }
     
-    /* Change color of dropdown links on hover */
+    /* Change color of dropdown links on hover 
     .dropdown-content a:hover 
     {
-        background-color: #dae7de;
     }
-    
+    */
+
     /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content 
     {
@@ -744,6 +744,16 @@ header {
 }
 .heightfill img {
     width: auto;
+}
+
+.widthfill {
+    width: 100%;
+    float: left;
+    display: inline-block;
+
+}
+.widthfill img {
+    height: auto;
 }
 
 .container {
